@@ -1,4 +1,5 @@
 require("dotenv").config();
+const fs = require('fs');
 const moment = require('moment');
 const axios = require('axios');
 const keys = require("./keys.js");
@@ -18,7 +19,6 @@ for (let i = 3; i < q.length; i++) {
 }
 
 query = query.slice(0, -1);
-console.log(query);
 
 if (qCommand === commands[0]) {
     const artist = query;
@@ -30,14 +30,17 @@ if (qCommand === commands[0]) {
                                   concerts[i].venue.country;
             let concertTime = concerts[i].datetime;
             concertTime = moment(concertTime).format("MM/DD/YYYY");
-            console.log(`\n\n
+            const summary = `\n\n
                 CONCERT #${i + 1}:
                 ======================= \n
                 venue: ${venueName} \n
                 location: ${venueLocation} \n
                 time: ${concertTime} \n
                 =======================
-            `);
+            `;
+            console.log(summary);
+
+            updateFiles(summary);
         }
     }).catch(err => {
         if (err) {
@@ -68,7 +71,7 @@ if (qCommand === commands[0]) {
                 let albumName = (album.name);
                 let songName = (songs[i].name);
 
-                console.log(`\n\n
+                const summary = (`\n\n
                 SONG #${i + 1}:
                     ======================= \n
                     ARTIST: ${artistName} \n
@@ -76,44 +79,73 @@ if (qCommand === commands[0]) {
                     SONG: ${songName} \n
                     spotify link: ${spotifyLink} \n
                     =======================
-                `);                    
+                `);    
+                console.log(summary);
+                updateFiles(summary);                
             }
         }
     )
 } else if (qCommand === commands[2]) {
     console.log('time to search a movie!');
+    let movie = query;
 
+    if (!query) {
+        movie = 'Mr. Nobody';
+    }
+    axios.get(`http://www.omdbapi.com/?apikey=trilogy&t=${movie}&plot=long`).then(
+        response => {
+            console.log(response.data);
+            const movieTitle = response.data.Title;
+            const movieYear = response.data.Year;
+            const imdbRating = response.data.imdbRating;
+            const rottenTRating = response.data.Ratings[1].Value;
+            const movieCountry = response.data.Country;
+            const movieLanguage = response.data.Language;
+            const moviePlot = response.data.Plot;
+
+           const summary = (`\n\n
+                _________Movie_________
+                ======================= \n
+                TITLE: ${movieTitle} \n
+                RELEASE YEAR: ${movieYear} \n
+                IMDB RATING: ${imdbRating} \n
+                ROTTEN TOMATOES: ${rottenTRating} \n
+                MOVIE COUNTRIES: ${movieCountry} \n
+                MOVIE LANGUAGE: ${movieLanguage} \n
+                MOVIE PLOT: ${moviePlot} \n
+
+                =======================
+            `);             
+            console.log(summary);
+            updateFiles(summary);
+        }
+    ).catch(
+        err => {
+            if (err) {
+                console.log(err);
+            }
+        }
+    );
 } else if (qCommand === commands[3]) {
     console.log('something');
+} 
 
-} else {
 
+
+function updateFiles(data) {
+    fs.appendFile('log.txt', data, err => {
+        if (err) {
+            console.log(err);
+        }
+        console.log('The File Was Updated With The Results!');
+    });
 }
 
 
 
-let artist = "hello";
-
-let bitURL = `https://rest.bandsintown.com/artists/${artist}/events?app_id=codingbootcamp`;
-
-// console.log(process.env);
 
 
 
 
 
 
-
-// OMDB
-// AXIOS API
-// NEED TO RENDER:
-    // movie title
-    // year released
-    //imdb rating
-    // rotten tomatoes rating
-    // country where produced
-    // language
-    // plot
-    // actor list
-    // default to "Mr. Nobody"
-    //key: trilogy

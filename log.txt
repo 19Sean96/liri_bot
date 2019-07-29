@@ -1,0 +1,283 @@
+
+
+
+                CONCERT #1:
+                ======================= 
+
+                venue: Richfield Avenue, Reading 
+
+                location: Reading, United Kingdom 
+
+                time: 08/22/2019 
+
+                =======================
+            
+
+
+                CONCERT #2:
+                ======================= 
+
+                venue: Richfield Avenue, Reading 
+
+                location: Reading, United Kingdom 
+
+                time: 08/25/2019 
+
+                =======================
+            
+
+
+                CONCERT #3:
+                ======================= 
+
+                venue: Ben Franklin Parkway 
+
+                location: Philadelphia, United States 
+
+                time: 08/31/2019 
+
+                =======================
+            
+
+
+                CONCERT #6:
+                ======================= 
+
+                venue: Zilker Metropolitan Park 
+
+                location: Austin, United States 
+
+                time: 10/06/2019 
+
+                =======================
+            
+
+
+                CONCERT #4:
+                ======================= 
+
+                venue: RingCentral Coliseum 
+
+                location: Oakland, United States 
+
+                time: 09/28/2019 
+
+                =======================
+            
+
+
+                CONCERT #8:
+                ======================= 
+
+                venue: Las Vegas Festival Grounds 
+
+                location: Las Vegas, United States 
+
+                time: 11/01/2019 
+
+                =======================
+            
+
+
+                CONCERT #7:
+                ======================= 
+
+                venue: Zilker Metropolitan Park 
+
+                location: Austin, United States 
+
+                time: 10/13/2019 
+
+                =======================
+            
+
+
+                CONCERT #5:
+                ======================= 
+
+                venue: The Grounds at Oakland Coliseum 
+
+                location: Oakland, United States 
+
+                time: 09/29/2019 
+
+                =======================
+            
+
+
+                CONCERT #9:
+                ======================= 
+
+                venue: Las Vegas Festival Grounds 
+
+                location: Las Vegas, United States 
+
+                time: 11/02/2019 
+
+                =======================
+            
+
+
+                CONCERT #10:
+                ======================= 
+
+                venue: Las Vegas Festival Grounds 
+
+                location: Las Vegas, United States 
+
+                time: 11/03/2019 
+
+                =======================
+            
+
+
+                CONCERT #1:
+                ======================= 
+
+                venue: Richfield Avenue, Reading 
+
+                location: Reading, United Kingdom 
+
+                time: 08/22/2019 
+
+                =======================
+            
+
+
+                CONCERT #2:
+                ======================= 
+
+                venue: Richfield Avenue, Reading 
+
+                location: Reading, United Kingdom 
+
+                time: 08/25/2019 
+
+                =======================
+            
+
+
+                CONCERT #3:
+                ======================= 
+
+                venue: Ben Franklin Parkway 
+
+                location: Philadelphia, United States 
+
+                time: 08/31/2019 
+
+                =======================
+            
+
+
+                CONCERT #5:
+                ======================= 
+
+                venue: The Grounds at Oakland Coliseum 
+
+                location: Oakland, United States 
+
+                time: 09/29/2019 
+
+                =======================
+            
+
+
+                CONCERT #6:
+                ======================= 
+
+                venue: Zilker Metropolitan Park 
+
+                location: Austin, United States 
+
+                time: 10/06/2019 
+
+                =======================
+            
+
+
+                CONCERT #7:
+                ======================= 
+
+                venue: Zilker Metropolitan Park 
+
+                location: Austin, United States 
+
+                time: 10/13/2019 
+
+                =======================
+            
+
+
+                CONCERT #8:
+                ======================= 
+
+                venue: Las Vegas Festival Grounds 
+
+                location: Las Vegas, United States 
+
+                time: 11/01/2019 
+
+                =======================
+            
+
+
+                CONCERT #9:
+                ======================= 
+
+                venue: Las Vegas Festival Grounds 
+
+                location: Las Vegas, United States 
+
+                time: 11/02/2019 
+
+                =======================
+            
+
+
+                CONCERT #10:
+                ======================= 
+
+                venue: Las Vegas Festival Grounds 
+
+                location: Las Vegas, United States 
+
+                time: 11/03/2019 
+
+                =======================
+            
+
+
+                CONCERT #4:
+                ======================= 
+
+                venue: RingCentral Coliseum 
+
+                location: Oakland, United States 
+
+                time: 09/28/2019 
+
+                =======================
+            
+
+
+                _________Movie_________
+                ======================= 
+
+                TITLE: The Lion King 
+
+                RELEASE YEAR: 1994 
+
+                IMDB RATING: 8.5 
+
+                ROTTEN TOMATOES: 93% 
+
+                MOVIE COUNTRIES: USA 
+
+                MOVIE LANGUAGE: English, Swahili, Xhosa, Zulu 
+
+                MOVIE PLOT: A Lion cub crown prince is tricked by a treacherous uncle into thinking he caused his father's death and flees into exile in despair, only to learn in adulthood his identity and his responsibilities. 
+
+
+                =======================
+            
